@@ -1,4 +1,7 @@
-x=3
-y=2
-print(x+y)
-print('hi')
+name=(input("What is your name"))
+age=(input("Your age"))
+phone=(input("Phone number"))
+print("name")
+print("age")
+print("phone")
+list("name", "age", "phone")
