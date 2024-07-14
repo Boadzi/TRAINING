@@ -3,8 +3,8 @@
 print('Welcome to Simple Calculator.')
 
 # Get user input for numbers
-number1= float(input('Enter number 1.'))
-number2= float(input('Enter number 2.'))
+number1= float(input('Enter 1st number: '))
+number2= float(input('Enter 2nd number: '))
 
 #Get user input for operation 
 print('Please select operation.')
@@ -13,7 +13,7 @@ print('2.Subtraction')
 print('3.Multiplication')
 print('4.Division')
 
-users_choice = input('Enter a operation sign. (1,2,3,4):')
+users_choice = input('Enter a operation sign. (1,2,3,4): ')
 
 if users_choice =='1':
     result = number1+number2

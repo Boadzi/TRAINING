@@ -8,7 +8,7 @@ random_number = random.randint(1,100)
 attempts=0
 while True:
          # getting user input
-        user_guess = int(input('You want to guess again? Now guess a number '))
+        user_guess = int(input('It is time. Now guess a number '))
         attempts += 1
         if user_guess == random_number:
              print(f'Yes! you got it, in {attempts} attempts.')
